@@ -51,7 +51,7 @@ The git() method throws a GitRuntimeException if the command is invalid:
 
     $repo->git('wtf'); // this git command does NOT exist: throw GitRuntimeException
 
-## Get branches informations
+## Get branches information 
 
 Some shortcut methods are provided to deal with branches in a convenient way.
 
@@ -70,14 +70,14 @@ Some shortcut methods are provided to deal with branches in a convenient way.
     $hasBranch = $repo->hasBranch('master');
     // returns true
 
-## Get tags informations
+## Get tags information 
 
 ### Get the tags list:
 
     $tags = $repo->getTags();
     // returns array('first_release', 'v2')
 
-## Get commits informations
+## Get commits information 
 
 You can get an array of the last commits on the current branch.
 
